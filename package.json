@@ -1,0 +1,37 @@
+{
+  "name": "img-resizing",
+  "version": "1.0.0",
+  "description": "Fastcampus Node 이미지 리사이징 서버 만들기 강의 내용을 정리해둔 자료입니다.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelloJeong/fc-img-resizing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HelloJeong/fc-img-resizing/issues"
+  },
+  "homepage": "https://github.com/HelloJeong/fc-img-resizing#readme",
+  "dependencies": {
+    "image-size": "^1.0.0",
+    "node-fetch": "^2.6.1",
+    "sharp": "^0.29.2",
+    "unsplash-js": "^7.0.15"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.12",
+    "@types/sharp": "^0.29.2",
+    "@types/unsplash-js": "^7.0.0",
+    "nodemon": "^2.0.13",
+    "ts-node": "^10.3.0"
+  },
+  "engines": {
+    "node": "14.17.3",
+    "npm": "7.20.3"
+  }
+}
